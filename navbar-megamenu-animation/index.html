@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Code Premium">
+    <meta name="keywords" content="Code Premium">
+    <meta name="author" content="Andika Chamberlin">
+    <!-- title -->
+    <title>Navbar Megamenu Animation Hover</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/icon-core.png" type="image/x-icon">
+    <!-- core.min.css -->
+    <link rel="stylesheet" href="css/core.min.css">
+    <!-- loader -->
+    <link rel="stylesheet" href="css/fmc-loader.css">
+    <!-- fmc.style -->
+    <link rel="stylesheet" href="css/fmc-style.css">
+    <!-- code plugin css -->
+    <link rel="stylesheet" href="code-plugin-css/fmc-nav-hover.min.css">
+    <!-- cdn font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- local font awesome -->
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <!-- modernizr development v3.5.0.min.js -->
+    <script src="js/modernizr-development-v3.5.0.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script scr="https://cdnjs.cloudflare.com/ajax/libs/livingston-css3-mediaqueries-js/1.0.0/css3-mediaqueries.min.js"></script>
+    <![endif]-->
+
+</head>
+<!-- end head -->
+    
+<!-- body -->
+<!-- height-m class core framework -->
+<body class="height-m">
+
+    <!-- Preload -->
+        <div id="fmcLoadScreen">
+            <div id="fmcLoading">
+                <div class="fmc-loader"><img src="img/icon-core.png" class="drop-shadow"></div>
+            </div>
+        </div>
+    <!-- End preload -->
+
+    
+    <!-- code -->
+
+    <!-- class dra is D R ropdown A nimation -->
+    <div class="dra-nav-animation" id="draNavAnimation">
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+        <span class="dra-circle"></span>
+    </div>
+    <div class="dra-nav" id="draNav">
+        <div class="dra-nav-layout">
+            <div class="dra-nav-logo" id="draNavLogo">
+                <a href="">
+                    <img src="img/icon-core.png" alt="">
+                </a>
+            </div>
+            <div class="dra-nav-items" id="draNavItems">
+                <ul class="dra-nav-items-list">
+                    <li class="dra-nav-back" id="draNavBack">
+                        <a href="#">Back <i class="fa fa-angle-left"></i></a>
+                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product <i class="fa fa-angle-down dra-nav-angle"></i></a>
+                        <div class="dra-nav-items-list-animation">
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                        </div>
+                        <div class="dra-nav-items-list-sub">
+                            <div class="dra-nav-layout">
+                                <!-- column core framework -->
+                                <div class="row">
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Product a1</a></li>
+                                            <li><a href="#">Product a2</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Product a2.1</a></li>
+                                                                <li><a href="#">Product a2.2</a></li>
+                                                                <li><a href="#">Product a2.3</a></li>
+                                                                <li><a href="#">Product a2.4</a></li>
+                                                                <li><a href="#">Product a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Product a2.1</a></li>
+                                                                <li><a href="#">Product a2.2</a></li>
+                                                                <li><a href="#">Product a2.3</a></li>
+                                                                <li><a href="#">Product a2.4</a></li>
+                                                                <li><a href="#">Product a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Product a2.1</a></li>
+                                                                <li><a href="#">Product a2.2</a></li>
+                                                                <li><a href="#">Product a2.3</a></li>
+                                                                <li><a href="#">Product a2.4</a></li>
+                                                                <li><a href="#">Product a2.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Product a3</a></li>
+                                            <li><a href="#">Product a4</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Product a2.1</a></li>
+                                                                <li><a href="#">Product a2.2</a></li>
+                                                                <li><a href="#">Product a2.3</a></li>
+                                                                <li><a href="#">Product a2.4</a></li>
+                                                                <li><a href="#">Product a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Product a2.1</a></li>
+                                                                <li><a href="#">Product a2.2</a></li>
+                                                                <li><a href="#">Product a2.3</a></li>
+                                                                <li><a href="#">Product a2.4</a></li>
+                                                                <li><a href="#">Product a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Product a2.1</a></li>
+                                                                <li><a href="#">Product a2.2</a></li>
+                                                                <li><a href="#">Product a2.3</a></li>
+                                                                <li><a href="#">Product a2.4</a></li>
+                                                                <li><a href="#">Product a2.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Product a5</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Product b1</a></li>
+                                            <li><a href="#">Product b2</a></li>
+                                            <li><a href="#">Product b3</a></li>
+                                            <li><a href="#">Product b4</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Product b4.1</a></li>
+                                                                <li><a href="#">Product b4.2</a></li>
+                                                                <li><a href="#">Product b4.3</a></li>
+                                                                <li><a href="#">Product b4.4</a></li>
+                                                                <li><a href="#">Product b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Product b4.1</a></li>
+                                                                <li><a href="#">Product b4.2</a></li>
+                                                                <li><a href="#">Product b4.3</a></li>
+                                                                <li><a href="#">Product b4.4</a></li>
+                                                                <li><a href="#">Product b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Product b4.1</a></li>
+                                                                <li><a href="#">Product b4.2</a></li>
+                                                                <li><a href="#">Product b4.3</a></li>
+                                                                <li><a href="#">Product b4.4</a></li>
+                                                                <li><a href="#">Product b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Product b4.1</a></li>
+                                                                <li><a href="#">Product b4.2</a></li>
+                                                                <li><a href="#">Product b4.3</a></li>
+                                                                <li><a href="#">Product b4.4</a></li>
+                                                                <li><a href="#">Product b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Product b4.1</a></li>
+                                                                <li><a href="#">Product b4.2</a></li>
+                                                                <li><a href="#">Product b4.3</a></li>
+                                                                <li><a href="#">Product b4.4</a></li>
+                                                                <li><a href="#">Product b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Product b4.1</a></li>
+                                                                <li><a href="#">Product b4.2</a></li>
+                                                                <li><a href="#">Product b4.3</a></li>
+                                                                <li><a href="#">Product b4.4</a></li>
+                                                                <li><a href="#">Product b4.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Product b5</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Product c1</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l6 m6 s12">
+                                                                <li><a href="#">Product c1.1</a></li>
+                                                                <li><a href="#">Product c1.2</a></li>
+                                                                <li><a href="#">Product c1.3</a></li>
+                                                                <li><a href="#">Product c1.4</a></li>
+                                                                <li><a href="#">Product c1.5</a></li>
+                                                            </div>
+                                                            <div class="column l6 m6 s12">
+                                                                <li><a href="#">Product c1.1</a></li>
+                                                                <li><a href="#">Product c1.2</a></li>
+                                                                <li><a href="#">Product c1.3</a></li>
+                                                                <li><a href="#">Product c1.4</a></li>
+                                                                <li><a href="#">Product c1.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Product c2</a></li>
+                                            <li><a href="#">Product c3</a></li>
+                                            <li><a href="#">Product c4</a></li>
+                                            <li><a href="#">Product c5</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Product d1</a></li>
+                                            <li><a href="#">Product d2</a></li>
+                                            <li><a href="#">Product d3</a></li>
+                                            <li><a href="#">Product d4</a></li>
+                                            <li><a href="#">Product d5</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <li><a href="#">Product d5.1</a></li>
+                                                        <li><a href="#">Product d5.2</a></li>
+                                                        <li><a href="#">Product d5.3</a></li>
+                                                        <li><a href="#">Product d5.4</a></li>
+                                                        <li><a href="#">Product d5.5</a></li>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Store <i class="fa fa-angle-down dra-nav-angle"></i></a>
+                        <div class="dra-nav-items-list-animation">
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                            <span class="dra-circle"></span>
+                        </div>
+                        <div class="dra-nav-items-list-sub">
+                            <div class="dra-nav-layout">
+                                <!-- column core framework -->
+                                <div class="row">
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Store a1</a></li>
+                                            <li><a href="#">Store a2</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l4 m6 s12">
+                                                                <li><a href="#">Store a2.1</a></li>
+                                                                <li><a href="#">Store a2.2</a></li>
+                                                                <li><a href="#">Store a2.3</a></li>
+                                                                <li><a href="#">Store a2.4</a></li>
+                                                                <li><a href="#">Store a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Store a2.1</a></li>
+                                                                <li><a href="#">Store a2.2</a></li>
+                                                                <li><a href="#">Store a2.3</a></li>
+                                                                <li><a href="#">Store a2.4</a></li>
+                                                                <li><a href="#">Store a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Store a2.1</a></li>
+                                                                <li><a href="#">Store a2.2</a></li>
+                                                                <li><a href="#">Store a2.3</a></li>
+                                                                <li><a href="#">Store a2.4</a></li>
+                                                                <li><a href="#">Store a2.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Store a3</a></li>
+                                            <li><a href="#">Store a4</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l4 m6 s12">
+                                                                <li><a href="#">Store a2.1</a></li>
+                                                                <li><a href="#">Store a2.2</a></li>
+                                                                <li><a href="#">Store a2.3</a></li>
+                                                                <li><a href="#">Store a2.4</a></li>
+                                                                <li><a href="#">Store a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Store a2.1</a></li>
+                                                                <li><a href="#">Store a2.2</a></li>
+                                                                <li><a href="#">Store a2.3</a></li>
+                                                                <li><a href="#">Store a2.4</a></li>
+                                                                <li><a href="#">Store a2.5</a></li>
+                                                            </div>
+                                                            <div class="column l4 m4 s12">
+                                                                <li><a href="#">Store a2.1</a></li>
+                                                                <li><a href="#">Store a2.2</a></li>
+                                                                <li><a href="#">Store a2.3</a></li>
+                                                                <li><a href="#">Store a2.4</a></li>
+                                                                <li><a href="#">Store a2.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Store a5</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Store b1</a></li>
+                                            <li><a href="#">Store b2</a></li>
+                                            <li><a href="#">Store b3</a></li>
+                                            <li><a href="#">Store b4</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Store b4.1</a></li>
+                                                                <li><a href="#">Store b4.2</a></li>
+                                                                <li><a href="#">Store b4.3</a></li>
+                                                                <li><a href="#">Store b4.4</a></li>
+                                                                <li><a href="#">Store b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Store b4.1</a></li>
+                                                                <li><a href="#">Store b4.2</a></li>
+                                                                <li><a href="#">Store b4.3</a></li>
+                                                                <li><a href="#">Store b4.4</a></li>
+                                                                <li><a href="#">Store b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Store b4.1</a></li>
+                                                                <li><a href="#">Store b4.2</a></li>
+                                                                <li><a href="#">Store b4.3</a></li>
+                                                                <li><a href="#">Store b4.4</a></li>
+                                                                <li><a href="#">Store b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Store b4.1</a></li>
+                                                                <li><a href="#">Store b4.2</a></li>
+                                                                <li><a href="#">Store b4.3</a></li>
+                                                                <li><a href="#">Store b4.4</a></li>
+                                                                <li><a href="#">Store b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Store b4.1</a></li>
+                                                                <li><a href="#">Store b4.2</a></li>
+                                                                <li><a href="#">Store b4.3</a></li>
+                                                                <li><a href="#">Store b4.4</a></li>
+                                                                <li><a href="#">Store b4.5</a></li>
+                                                            </div>
+                                                            <div class="column l2 m6 s12">
+                                                                <li><a href="#">Store b4.1</a></li>
+                                                                <li><a href="#">Store b4.2</a></li>
+                                                                <li><a href="#">Store b4.3</a></li>
+                                                                <li><a href="#">Store b4.4</a></li>
+                                                                <li><a href="#">Store b4.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Store b5</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Store c1</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <div class="row">
+                                                            <div class="column l6 m6 s12">
+                                                                <li><a href="#">Store c1.1</a></li>
+                                                                <li><a href="#">Store c1.2</a></li>
+                                                                <li><a href="#">Store c1.3</a></li>
+                                                                <li><a href="#">Store c1.4</a></li>
+                                                                <li><a href="#">Store c1.5</a></li>
+                                                            </div>
+                                                            <div class="column l6 m6 s12">
+                                                                <li><a href="#">Store c1.1</a></li>
+                                                                <li><a href="#">Store c1.2</a></li>
+                                                                <li><a href="#">Store c1.3</a></li>
+                                                                <li><a href="#">Store c1.4</a></li>
+                                                                <li><a href="#">Store c1.5</a></li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Store c2</a></li>
+                                            <li><a href="#">Store c3</a></li>
+                                            <li><a href="#">Store c4</a></li>
+                                            <li><a href="#">Store c5</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column l3 m6 s12">
+                                        <ul class="dra-nav-items-list-sub-content">
+                                            <li><a href="#">Store d1</a></li>
+                                            <li><a href="#">Store d2</a></li>
+                                            <li><a href="#">Store d3</a></li>
+                                            <li><a href="#">Store d4</a></li>
+                                            <li><a href="#">Store d5</i> <i class="fa fa-angle-down dra-nav-endangle"></i></a>
+                                                <ul class="dra-nav-items-list-endsub-content">
+                                                    <div class="dra-nav-layout">
+                                                        <li><a href="#">Store d5.1</a></li>
+                                                        <li><a href="#">Store d5.2</a></li>
+                                                        <li><a href="#">Store d5.3</a></li>
+                                                        <li><a href="#">Store d5.4</a></li>
+                                                        <li><a href="#">Store d5.5</a></li>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="dra-nav-toggle" id="draNavToggle">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- end code -->
+
+    <div class="fmc-parallax">
+        <div class="fmc-parallax-light">
+            <div class="position-middle silver size-20 center-align">
+                by andikachamberlin
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- end body -->
+
+<!-- script -->
+
+<!-- loader -->
+<script src="js/fmc-load.js"></script>
+<!-- cdn jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jquery v3.2.1.min.js -->
+<script>
+    if(!window.jQuery) document.write('<script src="js/jquery.min.js"><\/script>');
+</script>
+<!-- code plugin js -->
+<script src="code-plugin-js/fmc-nav-hover.min.js"></script>
+
+<!-- end script -->
+</html>
